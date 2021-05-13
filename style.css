@@ -1,0 +1,158 @@
+@font-face {
+  font-family: Jim Sans Regular;
+  src: url("./fonts/jim-sans-regular.woff2");
+}
+
+@font-face {
+  font-family: Jim Sans Medium;
+  src: url("./fonts/jim-sans-medium.woff2");
+}
+
+body {
+  font-family: Jim Sans Regular;
+}
+
+header {
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid #e4e7eb;
+  box-shadow: 3.716px 3.346px 40px 0px rgb(43 43 43 / 10%);
+}
+
+header nav ul li {
+  margin: 10px 10px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.custom-link {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #2b2b2b;
+  font-size: 18px;
+}
+
+.custom-link:hover {
+  color: #2b2b2b;
+  opacity: 0.5;
+}
+
+.align-items-center {
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+header > div {
+  max-width: 1366px;
+  margin: auto !important;
+  position: relative;
+}
+
+.grid-item-box {
+  margin-right: 24px;
+  margin-left: 24px;
+}
+.grid-item {
+  width: 100%;
+  transition: all 250ms ease;
+}
+
+.grid-item {
+  font-size: 13px;
+  font-weight: 400;
+  border-radius: 5px;
+  box-shadow: 0px 3px 12px 0px #ebebeb;
+  overflow: hidden;
+  margin-bottom: 40px;
+  position: relative;
+  padding-bottom: 16%;
+  min-height: 453px;
+  transition: all 100ms ease;
+  height: 90%;
+}
+
+.grid-item .img {
+  margin-bottom: 25px;
+}
+
+.grid-item .img img {
+  width: 100%;
+}
+
+.grid-item:hover {
+  box-shadow: 0px 2px 30px 0px #ced3d6;
+  transform: translateY(-7px);
+}
+
+.grid-item .title {
+  color: #2b2b2b;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+  font-family: Jim Sans Medium;
+}
+
+.grid-item .title h2 {
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.grid-item .txt {
+  font-family: "Jim Sans Regular", Arial;
+  font-size: 15px;
+  font-weight: 200;
+  color: #55585a;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 40px;
+  line-height: 24px;
+}
+
+.grid-item .links {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  bottom: 35px;
+  background-color: rgba(255, 255, 255, 0.9);
+  align-items: center;
+  transition: all 250ms linear;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.grid-item .links .link-wrapper {
+  border-radius: 2px;
+  background-color: #fff;
+  border: 1px solid #2b2b2b;
+  transition: all 250ms linear;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.grid-item .links .link-wrapper a:hover {
+  background-color: #2b2b2b;
+  color: #fff;
+}
+.grid-item .links a {
+  font-family: "Jim Sans Medium", Arial;
+  color: #2b2b2b;
+  width: 100%;
+  justify-content: center;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+
+  transition: all 250ms linear;
+}
